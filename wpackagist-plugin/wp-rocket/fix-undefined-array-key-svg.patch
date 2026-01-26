@@ -1,8 +1,3 @@
-Index: views/settings/page-sections/imagify.php
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
 diff --git a/views/settings/page-sections/imagify.php b/views/settings/page-sections/imagify.php
 --- a/views/settings/page-sections/imagify.php	(date 1769423845776)
 +++ b/views/settings/page-sections/imagify.php
