@@ -13,14 +13,14 @@ composer.json
         "enable-patching": true
     },
     "scripts": {
-        "patch": [
+        "update:patches": [
             "curl -s -o patches.json https://raw.githubusercontent.com/awkirin/awk-patches/refs/heads/main/patches.json"
         ],
         "pre-install-cmd": [
-            "@patch"
+            "@update:patches"
         ],
         "pre-update-cmd": [
-            "@patch"
+            "@update:patches"
         ]
     }
 }
