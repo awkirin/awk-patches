@@ -1,11 +1,11 @@
 --- a/inc/classes/dependencies/mobiledetect/mobiledetectlib/Mobile_Detect.php
 +++ b/inc/classes/dependencies/mobiledetect/mobiledetectlib/Mobile_Detect.php
 @@ -885,7 +885,7 @@ class Mobile_Detect
-     * @param string $userAgent deprecated
-     */
-     public function __construct(
--        array $headers = null,
-+        ?array $headers = null,
-         $userAgent = null
-     ) {
-         $this->setHttpHeaders($headers);
+      * @param string $userAgent deprecated
+      */
+      public function __construct(
+-         array $headers = null,
++         ?array $headers = null,
+          $userAgent = null
+      ) {
+          $this->setHttpHeaders($headers);
